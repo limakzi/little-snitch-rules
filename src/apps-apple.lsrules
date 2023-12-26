@@ -1,0 +1,28 @@
+{
+  "description" : "apps-apple",
+  "name" : "apps-apple",
+  "rules" : [
+    {
+      "action" : "deny",
+      "direction" : "incoming",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "process" : "\/System\/Applications\/Mail.app\/Contents\/MacOS\/Mail",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "direction" : "incoming",
+      "process" : "\/System\/Library\/PrivateFrameworks\/GameCenterFoundation.framework\/Versions\/A\/gamed",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "process" : "\/System\/Library\/PrivateFrameworks\/GameCenterFoundation.framework\/Versions\/A\/gamed",
+      "remote" : "any"
+    }
+  ]
+}
