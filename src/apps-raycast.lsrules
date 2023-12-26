@@ -1,0 +1,76 @@
+{
+  "description" : "",
+  "name" : "apps-raycast",
+  "rules" : [
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Raycast.app\/Contents\/MacOS\/Raycast",
+      "protocol" : "tcp",
+      "remote-hosts" : "backend.raycast.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Raycast.app\/Contents\/MacOS\/Raycast",
+      "protocol" : "tcp",
+      "remote-hosts" : "files.raycast.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Raycast.app\/Contents\/MacOS\/Raycast",
+      "protocol" : "tcp",
+      "remote-hosts" : "imgproxy.raycast.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Raycast.app\/Contents\/MacOS\/Raycast",
+      "protocol" : "tcp",
+      "remote-hosts" : "pulse.raycast.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Raycast.app\/Contents\/MacOS\/Raycast",
+      "protocol" : "tcp",
+      "remote-hosts" : "releases.raycast.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Raycast.app\/Contents\/MacOS\/Raycast",
+      "protocol" : "tcp",
+      "remote-hosts" : "wrapped.raycast.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Raycast.app\/Contents\/MacOS\/Raycast",
+      "protocol" : "tcp",
+      "remote-hosts" : "www.raycast.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Raycast.app\/Contents\/MacOS\/Raycast",
+      "protocol" : "tcp",
+      "remote-domains" : "stripe.com"
+    },
+    {
+      "action" : "deny",
+      "ports" : "443",
+      "process" : "\/Applications\/Raycast.app\/Contents\/MacOS\/Raycast",
+      "protocol" : "tcp",
+      "remote" : "any"
+    },
+    {
+      "action" : "deny",
+      "ports" : "443",
+      "process" : "\/Applications\/Raycast.app\/Contents\/MacOS\/Raycast",
+      "protocol" : "udp",
+      "remote" : "any"
+    }
+  ]
+}
