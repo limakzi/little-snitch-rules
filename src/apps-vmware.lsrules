@@ -1,0 +1,19 @@
+{
+  "description" : "apps-vmware",
+  "name" : "apps-vmware",
+  "rules" : [
+    {
+      "action" : "allow",
+      "direction" : "incoming",
+      "process" : "\/Applications\/VMware Fusion.app\/Contents\/MacOS\/VMware Fusion",
+      "remote" : "local-net"
+    },
+    {
+      "action" : "allow",
+      "ports" : "22",
+      "process" : "\/Applications\/VMware Fusion.app\/Contents\/MacOS\/VMware Fusion",
+      "protocol" : "tcp",
+      "remote" : "any"
+    }
+  ]
+}
