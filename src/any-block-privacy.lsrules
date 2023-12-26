@@ -1,0 +1,39 @@
+{
+  "description" : "any-privacy-block",
+  "name" : "any-privacy-block",
+  "rules" : [
+    {
+      "action" : "deny",
+      "ports" : "any",
+      "protocol" : "any",
+      "remote-domains" : [
+        "google-analytics.com",
+        "googletagmanager.com"
+      ]
+    },
+    {
+      "action" : "deny",
+      "ports" : "any",
+      "protocol" : "any",
+      "remote-domains" : [
+        "hotjar.com"
+      ]
+    },
+    {
+      "action" : "deny",
+      "ports" : "any",
+      "protocol" : "any",
+      "remote-domains" : [
+        "sentry.io"
+      ]
+    },
+    {
+      "action" : "deny",
+      "ports" : "any",
+      "protocol" : "any",
+      "remote-domains" : [
+        "sprig.com"
+      ]
+    }
+  ]
+}
