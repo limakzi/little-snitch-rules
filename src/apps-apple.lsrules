@@ -23,6 +23,13 @@
       "action" : "deny",
       "process" : "\/System\/Library\/PrivateFrameworks\/GameCenterFoundation.framework\/Versions\/A\/gamed",
       "remote" : "any"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/usr\/libexec\/networkserviceproxy",
+      "protocol" : "udp",
+      "remote-hosts" : "tether.edge.apple"
     }
   ]
 }
