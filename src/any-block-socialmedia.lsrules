@@ -27,6 +27,13 @@
     {
       "action" : "deny",
       "remote-domains" : [
+        "youtube.com",
+        "www.youtube.com"
+      ]
+    },
+    {
+      "action" : "deny",
+      "remote-domains" : [
         "reddit.com",
         "www.reddit.com"
       ]
