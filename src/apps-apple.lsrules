@@ -30,6 +30,13 @@
       "process" : "\/usr\/libexec\/networkserviceproxy",
       "protocol" : "udp",
       "remote-hosts" : "tether.edge.apple"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/System\/Applications\/Weather.app\/Contents\/PlugIns\/WeatherWidget.appex\/Contents\/MacOS\/WeatherWidget",
+      "protocol" : "udp",
+      "remote-hosts" : "tether.edge.apple"
     }
   ]
 }
