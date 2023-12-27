@@ -1,0 +1,11 @@
+{
+  "description" : "apps-cleanshot",
+  "name" : "apps-cleanshot",
+  "rules" : [
+    {
+      "action" : "deny",
+      "process" : "\/Applications\/CleanShot X.app\/Contents\/MacOS\/CleanShot X",
+      "remote" : "any"
+    }
+  ]
+}
