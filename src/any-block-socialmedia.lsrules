@@ -4,6 +4,8 @@
   "rules" : [
     {
       "action" : "deny",
+      "ports" : "443",
+      "protocol" : "udp",
       "remote-domains" : [
         "facebook.com",
         "www.facebook.com"
@@ -11,6 +13,17 @@
     },
     {
       "action" : "deny",
+      "ports" : "443",
+      "protocol" : "tcp",
+      "remote-domains" : [
+        "facebook.com",
+        "www.facebook.com"
+      ]
+    },
+    {
+      "action" : "deny",
+      "ports" : "443",
+      "protocol" : "udp",
       "remote-domains" : [
         "x.com",
         "twitter.com",
@@ -19,6 +32,18 @@
     },
     {
       "action" : "deny",
+      "ports" : "443",
+      "protocol" : "tcp",
+      "remote-domains" : [
+        "x.com",
+        "twitter.com",
+        "www.twitter.com"
+      ]
+    },
+    {
+      "action" : "deny",
+      "ports" : "443",
+      "protocol" : "udp",
       "remote-domains" : [
         "instagram.com",
         "www.instagram.com"
@@ -26,6 +51,17 @@
     },
     {
       "action" : "deny",
+      "ports" : "443",
+      "protocol" : "tcp",
+      "remote-domains" : [
+        "instagram.com",
+        "www.instagram.com"
+      ]
+    },
+    {
+      "action" : "deny",
+      "ports" : "443",
+      "protocol" : "udp",
       "remote-domains" : [
         "youtube.com",
         "www.youtube.com"
@@ -33,6 +69,26 @@
     },
     {
       "action" : "deny",
+      "ports" : "443",
+      "protocol" : "tcp",
+      "remote-domains" : [
+        "youtube.com",
+        "www.youtube.com"
+      ]
+    },
+    {
+      "action" : "deny",
+      "ports" : "443",
+      "protocol" : "udp",
+      "remote-domains" : [
+        "reddit.com",
+        "www.reddit.com"
+      ]
+    },
+    {
+      "action" : "deny",
+      "ports" : "443",
+      "protocol" : "tcp",
       "remote-domains" : [
         "reddit.com",
         "www.reddit.com"
