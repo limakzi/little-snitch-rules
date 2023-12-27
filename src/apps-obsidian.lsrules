@@ -1,0 +1,20 @@
+{
+  "description" : "apps-obsidian",
+  "name" : "apps-obsidian",
+  "rules" : [
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Obsidian.app\/Contents\/MacOS\/Obsidian",
+      "protocol" : "tcp",
+      "remote-hosts" : "chrome.cloudflare-dns.com"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Obsidian.app\/Contents\/MacOS\/Obsidian",
+      "protocol" : "tcp",
+      "remote-hosts" : "releases.obsidian.md"
+    }
+  ]
+}
