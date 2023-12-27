@@ -63,24 +63,6 @@
       "ports" : "443",
       "protocol" : "udp",
       "remote-domains" : [
-        "youtube.com",
-        "www.youtube.com"
-      ]
-    },
-    {
-      "action" : "deny",
-      "ports" : "443",
-      "protocol" : "tcp",
-      "remote-domains" : [
-        "youtube.com",
-        "www.youtube.com"
-      ]
-    },
-    {
-      "action" : "deny",
-      "ports" : "443",
-      "protocol" : "udp",
-      "remote-domains" : [
         "reddit.com",
         "www.reddit.com"
       ]
