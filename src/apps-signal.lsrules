@@ -1,0 +1,27 @@
+{
+  "description" : "apps-signal",
+  "name" : "apps-signal",
+  "rules" : [
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Signal.app\/Contents\/MacOS\/Signal",
+      "protocol" : "tcp",
+      "remote-hosts" : "chat.signal.org"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Signal.app\/Contents\/MacOS\/Signal",
+      "protocol" : "tcp",
+      "remote-hosts" : "updates2.signal.org"
+    },
+    {
+      "action" : "allow",
+      "ports" : "443",
+      "process" : "\/Applications\/Signal.app\/Contents\/MacOS\/Signal",
+      "protocol" : "udp",
+      "remote-hosts" : "chrome.cloudflare-dns.com"
+    }
+  ]
+}
